@@ -48,7 +48,7 @@ elif [[ $USER == "vin" ]]; then # elif = else if
         echo "Vin always vins. (haha got that joke?) You vanquished the beast."
 else
         echo "You Died"
-        exit 1
+        exit 1 # exit out of the bash script
 fi # close the if statement
 
 sleep 2
