@@ -32,8 +32,6 @@ echo "You have chosen the $type class. Your HP is $hp and your attack is $attack
 
 echo "You Died!"
 
-#echo "Hey, do you like coffee? (y/n)"
-
 # First beast battle
 
 beast=$(($RANDOM % 2)) # get a number between 0 and 1
